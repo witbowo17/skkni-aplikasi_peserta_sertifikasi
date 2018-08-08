@@ -1,0 +1,72 @@
+.body-nav {
+  height: 100%;
+}
+.body-nav.body-nav-horizontal {
+  background-color: #1f3a4d;
+  background-image: -moz-linear-gradient(top, #1f3a4d, #1f3a4d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1f3a4d), to(#1f3a4d));
+  background-image: -webkit-linear-gradient(top, #1f3a4d, #1f3a4d);
+  background-image: -o-linear-gradient(top, #1f3a4d, #1f3a4d);
+  background-image: linear-gradient(to bottom, #1f3a4d, #1f3a4d);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1f3a4d', endColorstr='#ff1f3a4d', GradientType=0);
+  border-bottom: 2px solid #2e5571;
+  height: auto;
+}
+.body-nav.body-nav-horizontal ul li {
+  border-left: 1px solid #101f29;
+  border-right: 1px solid #101f29;
+  width: 80px;
+  float: left;
+}
+.body-nav.body-nav-horizontal ul li a,
+.body-nav.body-nav-horizontal ul li button {
+  height: 70px;
+}
+.body-nav ul {
+  height: 100%;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.body-nav ul li {
+  width: 100%;
+  border-bottom: 1px solid #101f29;
+  border-top: 1px solid #101f29;
+}
+.body-nav ul li.active {
+  background-color: #192f3e;
+  background-image: -moz-linear-gradient(top, #1f3a4d, #101f29);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1f3a4d), to(#101f29));
+  background-image: -webkit-linear-gradient(top, #1f3a4d, #101f29);
+  background-image: -o-linear-gradient(top, #1f3a4d, #101f29);
+  background-image: linear-gradient(to bottom, #1f3a4d, #101f29);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1f3a4d', endColorstr='#ff101f29', GradientType=0);
+}
+.body-nav ul li > a,
+.body-nav ul li > button {
+  font-size: 12px;
+  opacity: .9;
+  color: #ffffff;
+  padding-top: 15px;
+  display: block;
+}
+.body-nav ul li > a small,
+.body-nav ul li > button small {
+  color: #0bb8e4;
+}
+.body-nav ul li > a span.icon-large,
+.body-nav ul li > button span.icon-large {
+  font-size: 30px;
+  line-height: 32px;
+  margin-top: -10px;
+  width: 100%;
+  display: block;
+}
+.body-nav ul li > a:hover,
+.body-nav ul li > button:hover {
+  background-color: #020304;
+  text-decoration: none;
+}
