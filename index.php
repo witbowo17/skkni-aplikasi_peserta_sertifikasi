@@ -24,7 +24,7 @@
 	</div>
 	<ul class="nav navbar-nav">
 	  <li class="active"><a href="index.php">PESERTA</a></li>
-	  <li class="active"><a href="index.php">LAPORAN</a></li>
+	  <li class="active"><a href="laporan.php">LAPORAN</a></li>
 	</ul>
   </div>
 </nav>
